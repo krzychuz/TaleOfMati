@@ -13,6 +13,8 @@ namespace TaleOfMati.Story
         public IDictionary<string, IStoryAction> PossibleActions { get; set; }
         public IStoryAction ChosenAction { get; set; }
 
+        private const int ConsoleWindowLength = 80;
+
         public StoryActionBase()
         {
             PossibleActions = new Dictionary<string, IStoryAction>();
@@ -20,8 +22,8 @@ namespace TaleOfMati.Story
 
         public void InvokeAction()
         {
-            LazyPrint("["+ PlaceDescription + "]");
-            LazyPrint(ActionDescription);
+            PrintWholeWords("["+ PlaceDescription + "]");
+            PrintWholeWords(ActionDescription);
 
             while(true)
             {
@@ -54,6 +56,22 @@ namespace TaleOfMati.Story
         {
             Console.Write(">> ");
             return Console.ReadLine();
+        }
+
+        private void PrintWholeWords(string text)
+        {
+            var words = text.Split(' ');
+            var lines = words.Skip(1).Aggregate(words.Take(1).ToList(), (l, w) =>
+            {
+                if (l.Last().Length + w.Length >= ConsoleWindowLength)
+                    l.Add(w);
+                else
+                    l[l.Count - 1] += " " + w;
+                return l;
+            });
+
+            foreach(var line in lines)
+                LazyPrint(line);
         }
     }
 }
