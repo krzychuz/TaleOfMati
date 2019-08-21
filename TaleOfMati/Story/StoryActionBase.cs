@@ -22,7 +22,7 @@ namespace TaleOfMati.Story
 
         public void InvokeAction()
         {
-            PrintWholeWords("["+ PlaceDescription + "]");
+            PrintLocation("["+ PlaceDescription + "]");
             PrintWholeWords(ActionDescription);
 
             while(true)
@@ -73,5 +73,13 @@ namespace TaleOfMati.Story
             foreach(var line in lines)
                 LazyPrint(line);
         }
+
+        private void PrintLocation(string location)
+        {
+            Console.ForegroundColor = ConsoleColor.Green;
+            PrintWholeWords(location);
+            Console.ForegroundColor = ConsoleColor.White;
+        }
+
     }
 }
