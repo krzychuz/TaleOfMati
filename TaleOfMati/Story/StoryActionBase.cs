@@ -10,14 +10,21 @@ namespace TaleOfMati.Story
     {
         public string PlaceDescription { get; set; }
         public string ActionDescription { get; set; }
-        public IDictionary<string, IStoryAction> PossibleActions { get; set; }
-        public IStoryAction ChosenAction { get; set; }
+        public IDictionary<string, string> PossibleActions { get; set; }
+        public string ChosenActionId { get; set; }
+        public string Id { get; set; }
 
         private const int ConsoleWindowLength = 80;
+        private int _shownActionId = 0;
 
         public StoryActionBase()
         {
-            PossibleActions = new Dictionary<string, IStoryAction>();
+            PossibleActions = new Dictionary<string, string>();
+        }
+
+        public StoryActionBase(string id) : this()
+        {
+            Id = id;
         }
 
         public void InvokeAction()
@@ -27,19 +34,48 @@ namespace TaleOfMati.Story
 
             while(true)
             {
-                var input = GetInput().Trim();
-                try
+                if (PossibleActions.Count == 1)
                 {
-                    ChosenAction = PossibleActions[input];
+                    var actionToDo = PossibleActions.Keys.First();
+
+                    switch(actionToDo)
+                    {
+                        case "AUTO":
+                            ChosenActionId = PossibleActions["AUTO"];
+                            break;
+                        case "ANY":
+                            ChosenActionId = PossibleActions["ANY"];
+                            GetAnyInput();
+                            break;
+                        default:
+                            ChosenActionId = PossibleActions[actionToDo];
+                            break;
+                    }
+
                     break;
                 }
-                catch (KeyNotFoundException)
+                else if(PossibleActions.Count == 0)
                 {
-                    Console.WriteLine("Nie wiem, co masz na myśli. Spróbuj jeszcze raz.");
+                    Console.WriteLine("GAME OVER!");
+                    Console.ReadLine();
+                    Environment.Exit(0);
+                }
+                else
+                {
+                    var input = GetInput();
+                    try
+                    {
+                        ChosenActionId = PossibleActions[input];
+                        break;
+                    }
+                    catch (KeyNotFoundException)
+                    {
+                        Console.WriteLine("Nie wiem, co masz na myśli. Spróbuj jeszcze raz.");
+                    }
                 }
             }
 
-            Console.WriteLine();
+            Console.WriteLine(Environment.NewLine);
         }
 
         private void LazyPrint(string data)
@@ -55,7 +91,46 @@ namespace TaleOfMati.Story
         private string GetInput()
         {
             Console.Write(">> ");
-            return Console.ReadLine();
+            while (true)
+            {
+                var readKey = Console.ReadKey().Key;
+
+                if (readKey == ConsoleKey.Tab)
+                {
+                    ClearCurrentConsoleLine();
+                    Console.Write(">> ");
+                    Console.ForegroundColor = ConsoleColor.Cyan;
+                    Console.Write(GetNextPossibleAction());
+                    Console.ForegroundColor = ConsoleColor.White;
+                }
+                else if(readKey == ConsoleKey.Enter)
+                {
+                    return PossibleActions.ElementAt(_shownActionId - 1).Key;
+                }
+            }
+        }
+
+        private void GetAnyInput()
+        {
+            Console.ReadLine();
+        }
+
+        private string GetNextPossibleAction()
+        {
+            if (PossibleActions.Count == _shownActionId)
+                _shownActionId = 0;
+
+            var actionToReturn = PossibleActions.ElementAt(_shownActionId).Key;
+            _shownActionId++;
+            return actionToReturn;
+        }
+
+        public static void ClearCurrentConsoleLine()
+        {
+            var currentLineCursor = Console.CursorTop;
+            Console.SetCursorPosition(0, Console.CursorTop);
+            Console.Write(new string(' ', Console.WindowWidth));
+            Console.SetCursorPosition(0, currentLineCursor);
         }
 
         private void PrintWholeWords(string text)

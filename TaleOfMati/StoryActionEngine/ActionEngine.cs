@@ -4,27 +4,35 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TaleOfMati.Story;
-using TaleOfMati.Story.StoryActions;
 
 namespace TaleOfMati.StoryActionEngine
 {
-    public class ActionEngine
+    public class ActionEngine : IDisposable
     {
         private IStoryAction FirstAction;
         private IStoryAction CurrentAction;
+        private ActionsRepository _actionsRepository;
+
+        private const string InitialAction = "s9mJThwdNVPW_bmVjUiE-1";
+        private const string LastAction = "SmOhq9sCI9yzw1fIaUKF-17";
 
         public ActionEngine()
         {
-            FirstAction = new Start();
+            _actionsRepository = new ActionsRepository();
+            FirstAction = _actionsRepository.GetStory(InitialAction);
             CurrentAction = FirstAction;
+        }
+
+        public void Dispose()
+        {
         }
 
         public void RunStory()
         {
-            while (!(CurrentAction is Stop))
+            while (CurrentAction.Id != LastAction)
             {
                 CurrentAction.InvokeAction();
-                CurrentAction = CurrentAction.ChosenAction;
+                CurrentAction = _actionsRepository.GetStory(CurrentAction.ChosenActionId);
             }
         }
     }

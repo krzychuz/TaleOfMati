@@ -12,9 +12,11 @@ namespace TaleOfMati.Story
 
         string ActionDescription { get; set; }
 
-        IDictionary<string, IStoryAction> PossibleActions { get; set; }
+        IDictionary<string, string> PossibleActions { get; set; }
 
-        IStoryAction ChosenAction { get; set; }
+        string ChosenActionId { get; set; }
+
+        string Id { get; set; }
 
         void InvokeAction();
 

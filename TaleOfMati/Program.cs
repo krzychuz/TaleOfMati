@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TaleOfMati.StoryActionEngine;
+using TaleOfMati.XML;
 
 namespace TaleOfMati
 {
@@ -11,8 +12,10 @@ namespace TaleOfMati
     {
         static void Main(string[] args)
         {
-            var actionEngine = new ActionEngine();
-            actionEngine.RunStory();
+            using(ActionEngine actionEngine = new ActionEngine())
+            {
+                actionEngine.RunStory();
+            }
             Console.ReadLine();
         }
     }
