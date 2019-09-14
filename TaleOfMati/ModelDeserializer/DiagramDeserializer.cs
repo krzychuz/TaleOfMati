@@ -76,31 +76,36 @@ namespace TaleOfMati.ModelDeserializer
 
                 if (spanNodeCollection?.Count == 2)
                 {
-                    actionNode.PlaceDescription = spanNodeCollection.ElementAt(0).InnerText;
-                    actionNode.ActionDescription = spanNodeCollection.ElementAt(1).InnerText;
+                    actionNode.PlaceDescription = CleanHtmlTags(spanNodeCollection.ElementAt(0).InnerText);
+                    actionNode.ActionDescription = CleanHtmlTags(spanNodeCollection.ElementAt(1).InnerText);
                 }
                 else if (spanNodeCollection?.Count == 1)
                 {
-                    actionNode.ActionDescription = spanNodeCollection.ElementAt(0).InnerText;
+                    actionNode.ActionDescription = CleanHtmlTags(spanNodeCollection.ElementAt(0).InnerText);
                     actionNode.PlaceDescription = "Lokalizacja nieznana";
                 }
                 else if (textNodeCollection?.Count > 0)
                 {
-                    actionNode.PlaceDescription = textNodeCollection.ElementAt(0).InnerText;
-                    actionNode.ActionDescription = textNodeCollection.ElementAt(1).InnerText;
+                    actionNode.PlaceDescription = CleanHtmlTags(textNodeCollection.ElementAt(0).InnerText);
+                    actionNode.ActionDescription = CleanHtmlTags(textNodeCollection.ElementAt(1).InnerText);
                 }
                 else
                 {
-                    actionNode.ActionDescription = nodeValue;
+                    actionNode.ActionDescription = CleanHtmlTags(nodeValue);
                     actionNode.PlaceDescription = "Lokalizacja nieznana";
                 }
 
             }
             else
             {
-                actionNode.ActionDescription = nodeValue;
+                actionNode.ActionDescription = CleanHtmlTags(nodeValue);
                 actionNode.PlaceDescription = "Lokalizacja nieznana";
             }
+        }
+
+        private string CleanHtmlTags(string value)
+        {
+            return Regex.Replace(value, @"&nbsp;", "").Trim();
         }
 
         public void Dispose()

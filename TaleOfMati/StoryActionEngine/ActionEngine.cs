@@ -3,23 +3,25 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TaleOfMati.CommandLine;
 using TaleOfMati.Story;
 
 namespace TaleOfMati.StoryActionEngine
 {
     public class ActionEngine : IDisposable
     {
-        private IStoryAction FirstAction;
+        private readonly IStoryAction FirstAction;
         private IStoryAction CurrentAction;
-        private ActionsRepository _actionsRepository;
+        private readonly ActionsRepository _actionsRepository;
 
-        private const string InitialAction = "s9mJThwdNVPW_bmVjUiE-1";
-        private const string LastAction = "SmOhq9sCI9yzw1fIaUKF-17";
+        private const string InitialActionId = "s9mJThwdNVPW_bmVjUiE-1";
+        private readonly string[] LastActionIds = { "SmOhq9sCI9yzw1fIaUKF-127", "SmOhq9sCI9yzw1fIaUKF-76", "SmOhq9sCI9yzw1fIaUKF-30",
+            "SmOhq9sCI9yzw1fIaUKF-100", "Ocsp_ow847kPlsqR-XV0-15", };
 
         public ActionEngine()
         {
             _actionsRepository = new ActionsRepository();
-            FirstAction = _actionsRepository.GetStory(InitialAction);
+            FirstAction = _actionsRepository.GetStory(InitialActionId);
             CurrentAction = FirstAction;
         }
 
@@ -36,7 +38,8 @@ namespace TaleOfMati.StoryActionEngine
 
         public void RunStory()
         {
-            while (CurrentAction.Id != LastAction)
+            StartScreen.PrintStartScreen();
+            while (true)
             {
                 CurrentAction.InvokeAction();
                 CurrentAction = _actionsRepository.GetStory(CurrentAction.ChosenActionId);

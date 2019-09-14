@@ -10,7 +10,7 @@ namespace TaleOfMati.Story
     public class ActionsRepository : IDisposable
     {
         private IList<IStoryAction> _storyActions;
-        private const string StoriesPath = "C:\\Users\\krzyc\\Desktop\\TaleOfMati.DrawIoModel";
+        private const string StoriesPath = "C:\\Users\\krzyc\\Desktop\\TaleOfMati.xml";
 
         public ActionsRepository()
         {

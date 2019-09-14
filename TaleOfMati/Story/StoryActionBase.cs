@@ -50,7 +50,7 @@ namespace TaleOfMati.Story
 
         private void HandleActionWithInput()
         {
-            var input = CommandLineHelper.GetInput(GetNextPossibleAction, PossibleActions, _shownActionId);
+            var input = CommandLineHelper.GetInput(GetNextPossibleAction, PossibleActions, ref _shownActionId);
             try
             {
                 ChosenActionId = PossibleActions[input];

@@ -8,14 +8,12 @@ namespace TaleOfMati.CommandLine
 {
     public static class CommandLineHelper
     {
-        private const int ConsoleWindowLength = 80;
-
         public static void PrintWholeWords(string text)
         {
             var words = text.Split(' ');
             var lines = words.Skip(1).Aggregate(words.Take(1).ToList(), (l, w) =>
             {
-                if (l.Last().Length + w.Length >= ConsoleWindowLength)
+                if (l.Last().Length + w.Length >= ConsoleConstants.ConsoleWidth - 5)
                     l.Add(w);
                 else
                     l[l.Count - 1] += " " + w;
@@ -37,7 +35,7 @@ namespace TaleOfMati.CommandLine
         }
 
         public static string GetInput(Func<string> getNextPossibleAction, IDictionary<string, string> possibleActions,
-            int shownActionId)
+            ref int shownActionId)
         {
             Console.Write(">> ");
             while (true)
