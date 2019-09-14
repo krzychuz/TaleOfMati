@@ -14,10 +14,6 @@ namespace TaleOfMati.ModelDeserializer
 {
     public class DiagramDeserializer : IDisposable
     {
-        public void Dispose()
-        {
-        }
-
         public List<IStoryAction> GetStoriesFromXml(string fileName)
         {
             XmlSerializer serializer = new XmlSerializer(typeof(MxFile));
@@ -105,6 +101,16 @@ namespace TaleOfMati.ModelDeserializer
                 actionNode.ActionDescription = nodeValue;
                 actionNode.PlaceDescription = "Lokalizacja nieznana";
             }
+        }
+
+        public void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
+        }
+
+        protected virtual void Dispose(bool isDisposing)
+        {
         }
 
     }

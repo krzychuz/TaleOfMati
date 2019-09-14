@@ -25,6 +25,13 @@ namespace TaleOfMati.StoryActionEngine
 
         public void Dispose()
         {
+            Dispose(true);
+            GC.SuppressFinalize(this);
+        }
+
+        protected virtual void Dispose(bool isDisposing)
+        {
+            _actionsRepository.Dispose();
         }
 
         public void RunStory()
