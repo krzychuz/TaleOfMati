@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TaleOfMati.XML;
+using TaleOfMati.ModelDeserializer;
 
 namespace TaleOfMati.Story
 {
     public class ActionsRepository : IDisposable
     {
         private IList<IStoryAction> _storyActions;
-        private const string StoriesPath = "C:\\Users\\krzyc\\Desktop\\TaleOfMati.xml";
+        private const string StoriesPath = "C:\\Users\\krzyc\\Desktop\\TaleOfMati.DrawIoModel";
 
         public ActionsRepository()
         {

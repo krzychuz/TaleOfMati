@@ -55,6 +55,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CommandLine\CommandLineHelper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StoryActionEngine\ActionEngine.cs" />
@@ -62,15 +63,15 @@
     <Compile Include="Story\IStoryAction.cs" />
     <Compile Include="Story\StoryActionBase.cs" />
     <Compile Include="Tests\GraphConsistencyTest.cs" />
-    <Compile Include="XML\Array.cs" />
-    <Compile Include="XML\Diagram.cs" />
-    <Compile Include="XML\DiagramDeserializer.cs" />
-    <Compile Include="XML\MxCell.cs" />
-    <Compile Include="XML\MxFile.cs" />
-    <Compile Include="XML\MxGeometry.cs" />
-    <Compile Include="XML\MxGraphModel.cs" />
-    <Compile Include="XML\MxPoint.cs" />
-    <Compile Include="XML\Root.cs" />
+    <Compile Include="DrawIoModel\Array.cs" />
+    <Compile Include="DrawIoModel\Diagram.cs" />
+    <Compile Include="ModelDeserializer\DiagramDeserializer.cs" />
+    <Compile Include="DrawIoModel\MxCell.cs" />
+    <Compile Include="DrawIoModel\MxFile.cs" />
+    <Compile Include="DrawIoModel\MxGeometry.cs" />
+    <Compile Include="DrawIoModel\MxGraphModel.cs" />
+    <Compile Include="DrawIoModel\MxPoint.cs" />
+    <Compile Include="DrawIoModel\Root.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -7,9 +7,10 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
+using TaleOfMati.DrawIoModel;
 using TaleOfMati.Story;
 
-namespace TaleOfMati.XML
+namespace TaleOfMati.ModelDeserializer
 {
     public class DiagramDeserializer : IDisposable
     {
