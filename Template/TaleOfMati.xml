@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mxfile modified="2019-09-14T15:00:52.995Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36" etag="Ruo1lAdynHVDxemHHNEU" pages="1" version="11.2.8" type="google" compressed="false">
+<mxfile modified="2019-09-14T20:14:55.167Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36" etag="q3HiZFhUCVMhI3LhC92x" pages="1" version="11.2.8" type="google" compressed="false">
   <diagram name="Page-1" id="edf60f1a-56cd-e834-aa8a-f176f3a09ee4">
-    <mxGraphModel dx="2508" dy="1598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2273" dy="2283" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -28,8 +28,10 @@
         <mxCell id="w-wf2LYTSnfna-i-p-Sl-2" value="Kuchnia&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;Czy robisz sobie kawę w domu?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="108" y="189" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="6W_6ivR835rkXE9z7XLV-4" value="Wstaję" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" parent="1" source="6W_6ivR835rkXE9z7XLV-1" target="6W_6ivR835rkXE9z7XLV-3" edge="1">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="6W_6ivR835rkXE9z7XLV-4" value="Wstaję" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontSize=10;" parent="1" source="6W_6ivR835rkXE9z7XLV-1" target="w-wf2LYTSnfna-i-p-Sl-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380.3333333333335" y="340.3333333333335" as="targetPoint"/>
+          </mxGeometry>
         </mxCell>
         <mxCell id="6W_6ivR835rkXE9z7XLV-61" value="Nie wstaję" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=10;" parent="1" source="6W_6ivR835rkXE9z7XLV-1" target="6W_6ivR835rkXE9z7XLV-60" edge="1">
           <mxGeometry x="-0.392" relative="1" as="geometry">
@@ -39,15 +41,12 @@
         <mxCell id="6W_6ivR835rkXE9z7XLV-1" value="Sypialnia&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;Budzik dzwoni o 5:00. Czy wstajesz?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="290" y="190" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="6W_6ivR835rkXE9z7XLV-3" value="???" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="320" y="340" width="120" height="60" as="geometry"/>
-        </mxCell>
-        <mxCell id="6W_6ivR835rkXE9z7XLV-8" value="AUTO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" parent="1" source="6W_6ivR835rkXE9z7XLV-6" target="w-wf2LYTSnfna-i-p-Sl-2" edge="1">
+        <mxCell id="6W_6ivR835rkXE9z7XLV-8" value="AUTO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=10;" parent="1" source="6W_6ivR835rkXE9z7XLV-6" target="w-wf2LYTSnfna-i-p-Sl-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="160" y="410"/>
-              <mxPoint x="60" y="410"/>
-              <mxPoint x="60" y="220"/>
+              <mxPoint x="40" y="410"/>
+              <mxPoint x="40" y="204"/>
             </Array>
           </mxGeometry>
         </mxCell>
@@ -84,10 +83,10 @@
         <mxCell id="6W_6ivR835rkXE9z7XLV-11" value="&lt;br style=&quot;font-size: 10px;&quot;&gt;Pobliskie TESCO&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;W sklepie w alejce z jogurtami Dodie. Puszcza Ci oko. Odpuszczasz?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="100" y="580" width="120" height="100" as="geometry"/>
         </mxCell>
-        <mxCell id="6W_6ivR835rkXE9z7XLV-43" value="Czekasz" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" parent="1" source="6W_6ivR835rkXE9z7XLV-13" target="6W_6ivR835rkXE9z7XLV-42" edge="1">
+        <mxCell id="6W_6ivR835rkXE9z7XLV-43" value="Czekam aż ktoś przyjdzie" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" parent="1" source="6W_6ivR835rkXE9z7XLV-13" target="6W_6ivR835rkXE9z7XLV-42" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="6W_6ivR835rkXE9z7XLV-45" value="Okno" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" parent="1" source="6W_6ivR835rkXE9z7XLV-13" target="6W_6ivR835rkXE9z7XLV-44" edge="1">
+        <mxCell id="6W_6ivR835rkXE9z7XLV-45" value="Wchodzę przez uchylone okno" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" parent="1" source="6W_6ivR835rkXE9z7XLV-13" target="6W_6ivR835rkXE9z7XLV-44" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="6W_6ivR835rkXE9z7XLV-13" value="&lt;span style=&quot;white-space: normal; font-size: 10px;&quot;&gt;Wsiadasz do samochodu i jedziesz do pracy. Na miejscu okazuje się, że Szymon zainstalował system rozpoznawania twarzy. Musisz wejść. Uchylone okno czy czekasz na kogoś?&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
@@ -114,7 +113,7 @@
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="6W_6ivR835rkXE9z7XLV-42" value="Już po kilku minutach Fredrik. Podoba mu się fryzura. Oferuje trójkąt ze swoją dziewczyną Zgadzasz się?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="710" y="582.5" width="120" height="115" as="geometry"/>
+          <mxGeometry x="760" y="567.5" width="120" height="115" as="geometry"/>
         </mxCell>
         <mxCell id="6W_6ivR835rkXE9z7XLV-57" value="Tak" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" parent="1" source="6W_6ivR835rkXE9z7XLV-49" target="6W_6ivR835rkXE9z7XLV-55" edge="1">
           <mxGeometry relative="1" as="geometry"/>
@@ -150,17 +149,19 @@
         <mxCell id="6W_6ivR835rkXE9z7XLV-47" value="Fredrik zdradza Ci tajniki vikingów. Musisz jeść śmierdzące śledzie i kąpać się w lodowatej wodzie. Każe Ci przyrzec, że będziesz ich przestrzegał. Zgadzasz się?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="710" y="778" width="120" height="153" as="geometry"/>
         </mxCell>
-        <mxCell id="6W_6ivR835rkXE9z7XLV-59" value="Tak/Nie" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" parent="1" source="6W_6ivR835rkXE9z7XLV-16" target="6W_6ivR835rkXE9z7XLV-25" edge="1">
+        <mxCell id="6W_6ivR835rkXE9z7XLV-59" value="Tak" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" parent="1" source="6W_6ivR835rkXE9z7XLV-16" target="6W_6ivR835rkXE9z7XLV-25" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-58" value="Nie" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="6W_6ivR835rkXE9z7XLV-16" target="6W_6ivR835rkXE9z7XLV-25">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="6W_6ivR835rkXE9z7XLV-16" value="Alejka z jogurtami&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;Jesteś zniesmaczony jest ostatnim albumem. Odchodzisz niezadowolony. Czy robisz dalej zakupy?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="30" y="770" width="120" height="126" as="geometry"/>
         </mxCell>
-        <mxCell id="6W_6ivR835rkXE9z7XLV-27" value="Tak" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" parent="1" source="6W_6ivR835rkXE9z7XLV-21" target="6W_6ivR835rkXE9z7XLV-24" edge="1">
+        <mxCell id="6W_6ivR835rkXE9z7XLV-27" value="Tak" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="6W_6ivR835rkXE9z7XLV-21" target="6W_6ivR835rkXE9z7XLV-24" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="340" y="800"/>
-              <mxPoint x="260" y="800"/>
+              <mxPoint x="225" y="800"/>
             </Array>
           </mxGeometry>
         </mxCell>
@@ -181,18 +182,21 @@
         <mxCell id="6W_6ivR835rkXE9z7XLV-24" value="Wiadomka! Nigdy niie wiadomo, kiedy może się przydać." style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="165" y="870" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="6W_6ivR835rkXE9z7XLV-29" value="Tak" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;" parent="1" source="6W_6ivR835rkXE9z7XLV-25" target="6W_6ivR835rkXE9z7XLV-28" edge="1">
+        <mxCell id="6W_6ivR835rkXE9z7XLV-29" value="Pomagam" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;" parent="1" source="6W_6ivR835rkXE9z7XLV-25" target="6W_6ivR835rkXE9z7XLV-28" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-56" value="Nie pomagam" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fontSize=10;" edge="1" parent="1" source="6W_6ivR835rkXE9z7XLV-25" target="otK-riBhTClsG9Ob1v-h-55">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="6W_6ivR835rkXE9z7XLV-25" value="&lt;br style=&quot;font-size: 10px;&quot;&gt;TESCO, kolejka do kasy&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;Okazuje się, że w TESCO jest Astro. Widzisz jak kasjerka męczy się z wydrukiem labelki. Czy pomagasz jej z przeglądaniem logów?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="245" y="1000" width="120" height="180" as="geometry"/>
         </mxCell>
-        <mxCell id="6W_6ivR835rkXE9z7XLV-52" value="AUTO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=10;" parent="1" source="6W_6ivR835rkXE9z7XLV-28" target="6W_6ivR835rkXE9z7XLV-51" edge="1">
+        <mxCell id="6W_6ivR835rkXE9z7XLV-52" value="AUTO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" parent="1" source="6W_6ivR835rkXE9z7XLV-28" target="6W_6ivR835rkXE9z7XLV-51" edge="1">
           <mxGeometry x="0.1273" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="400" y="1290"/>
+              <mxPoint x="370" y="1290"/>
               <mxPoint x="500" y="1290"/>
-              <mxPoint x="500" y="1250"/>
+              <mxPoint x="500" y="1260"/>
             </Array>
             <mxPoint as="offset"/>
           </mxGeometry>
@@ -227,12 +231,12 @@
         <mxCell id="6W_6ivR835rkXE9z7XLV-56" value="Dobra decyzja. Nigdy nie wiadomo." style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="950" y="1110" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="Ocsp_ow847kPlsqR-XV0-3" value="Nie" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" parent="1" source="6W_6ivR835rkXE9z7XLV-60" target="Ocsp_ow847kPlsqR-XV0-2" edge="1">
+        <mxCell id="Ocsp_ow847kPlsqR-XV0-3" value="Uciekam" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" parent="1" source="6W_6ivR835rkXE9z7XLV-60" target="Ocsp_ow847kPlsqR-XV0-2" edge="1">
           <mxGeometry x="-0.4444" relative="1" as="geometry">
             <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ocsp_ow847kPlsqR-XV0-12" value="Tak" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" parent="1" source="6W_6ivR835rkXE9z7XLV-60" target="Ocsp_ow847kPlsqR-XV0-11" edge="1">
+        <mxCell id="Ocsp_ow847kPlsqR-XV0-12" value="Pertraktuję" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" parent="1" source="6W_6ivR835rkXE9z7XLV-60" target="Ocsp_ow847kPlsqR-XV0-11" edge="1">
           <mxGeometry x="0.3498" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="902" y="424"/>
@@ -246,32 +250,34 @@
         <mxCell id="6W_6ivR835rkXE9z7XLV-60" value="Środek lasu&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;Budzi Cię dźwięk pierdzącego dzika. Spostrzegasz, że jesteś w środku lasu. Uciekasz przed dzikiem, czy próbujesz&amp;nbsp; z nim pertraktować?&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="494" y="314" width="120" height="156" as="geometry"/>
         </mxCell>
-        <mxCell id="Ocsp_ow847kPlsqR-XV0-5" value="Nie" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" parent="1" source="Ocsp_ow847kPlsqR-XV0-2" target="Ocsp_ow847kPlsqR-XV0-4" edge="1">
+        <mxCell id="Ocsp_ow847kPlsqR-XV0-5" value="Nie moja stulejka, nie moja sprawa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" parent="1" source="Ocsp_ow847kPlsqR-XV0-2" target="Ocsp_ow847kPlsqR-XV0-4" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="sZYtht9tVo3GLUMoBra6-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" parent="1" source="Ocsp_ow847kPlsqR-XV0-2" target="sZYtht9tVo3GLUMoBra6-40" edge="1">
+        <mxCell id="sZYtht9tVo3GLUMoBra6-41" value="Tak. W sumie jestem ciekawy" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="Ocsp_ow847kPlsqR-XV0-2" target="sZYtht9tVo3GLUMoBra6-40" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="Ocsp_ow847kPlsqR-XV0-2" value="Dobiegasz do osady. Buszmeni mieszkają w chatkach z gigantycznych brokułów. Na stopach noszą chlebuty. Pomiędzy liśćmi brokuła dostrzegasz, że wszystkich męskich członków społeczności dotyka stulejka. Czy drążysz temat?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="Ocsp_ow847kPlsqR-XV0-2" value="Osada buszmenów&lt;br&gt;&lt;br&gt;Dobiegasz do osady. Buszmeni mieszkają w chatkach z gigantycznych brokułów. Na stopach noszą chlebuty. Pomiędzy liśćmi brokuła dostrzegasz, że wszystkich męskich członków społeczności dotyka stulejka. Czy drążysz temat?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="650" y="50" width="120" height="250" as="geometry"/>
         </mxCell>
-        <mxCell id="sZYtht9tVo3GLUMoBra6-44" value="Tak" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" parent="1" source="sZYtht9tVo3GLUMoBra6-40" target="sZYtht9tVo3GLUMoBra6-43" edge="1">
+        <mxCell id="sZYtht9tVo3GLUMoBra6-44" value="Tak. Trzeba pomagać potrzebującym&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" parent="1" source="sZYtht9tVo3GLUMoBra6-40" target="sZYtht9tVo3GLUMoBra6-43" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="sZYtht9tVo3GLUMoBra6-45" value="Nie" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" parent="1" source="sZYtht9tVo3GLUMoBra6-40" target="sZYtht9tVo3GLUMoBra6-42" edge="1">
+        <mxCell id="sZYtht9tVo3GLUMoBra6-45" value="Nie. Mamy już wystarczająco dużo programistów na rynku" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" parent="1" source="sZYtht9tVo3GLUMoBra6-40" target="sZYtht9tVo3GLUMoBra6-42" edge="1">
+          <mxGeometry x="-0.1806" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sZYtht9tVo3GLUMoBra6-40" value="Brokuł wodza&lt;br&gt;&lt;br&gt;Wódz plemienia opowiada Ci historię o tym jak wiele lat temu bogowie zesłali straszliwą karę na ich lud. Tubylcy chcieliby odwrócić swój żywot i przestać być stulejarzami. Słyszeli, że zawód programisty jest dobrą perspektywą. Czy chcesz im pomóc?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="890" y="-270" width="120" height="210" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-7" value="Przeszukujesz kieszenie" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="Ocsp_ow847kPlsqR-XV0-4" target="otK-riBhTClsG9Ob1v-h-6">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="sZYtht9tVo3GLUMoBra6-40" value="Wódz plemienia opowiada Ci historię o tym jak wiele lat temu bogowie zesłali straszliwą karę na ich lud. Tubylcy chcieliby odwrócić swój żywot i przestać być stulejarzami. Słyszeli, że zawód programisty jest dobrą perspektywą. Czy chcesz im pomóc?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="650" y="-240" width="120" height="210" as="geometry"/>
-        </mxCell>
-        <mxCell id="Ocsp_ow847kPlsqR-XV0-7" value="Głód" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" parent="1" source="Ocsp_ow847kPlsqR-XV0-4" target="Ocsp_ow847kPlsqR-XV0-6" edge="1">
+        <mxCell id="otK-riBhTClsG9Ob1v-h-9" value="W akcie desperacji wykręcasz im suty" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="Ocsp_ow847kPlsqR-XV0-4" target="otK-riBhTClsG9Ob1v-h-8">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="Ocsp_ow847kPlsqR-XV0-4" value="Spoko. Nie gadasz ze stulejarzami. Buszmeni zaczynają Cię gonić i stawiają przed Bogiem Wielkiej Łydki. Modlą się o zesłanie na niego pioruna. Bóg zagląda w jego żołądek i widzi, że jest pusty. daje mu wybór - &amp;gt; zwalczyć głód na świecie lub samemu poczuć głód. Co wybierasz?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="Ocsp_ow847kPlsqR-XV0-4" value="Osada buszmenów&lt;br&gt;&lt;br&gt;Nie znasz kodeksu buszmenów, który nakazuje robić ??. Ta zniewaga ich denerwuje. Buszmeni zaczynają gniewnie tupać nogami. Co robisz?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="990" y="50" width="120" height="250" as="geometry"/>
-        </mxCell>
-        <mxCell id="Ocsp_ow847kPlsqR-XV0-6" value="Bóg daje Ci kupony do Maca" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="1170" y="-130" width="120" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="6W_6ivR835rkXE9z7XLV-67" value="AUTO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=10;" parent="1" source="6W_6ivR835rkXE9z7XLV-65" target="6W_6ivR835rkXE9z7XLV-25" edge="1">
           <mxGeometry relative="1" as="geometry"/>
@@ -401,8 +407,16 @@
         <mxCell id="Ocsp_ow847kPlsqR-XV0-25" value="Michał wpada w furię. Jeszcze nigdy nie zachowywał się tak w Consafe. Każe Ci iść ze sobą na pilnego 1-1. Oświadcza Ci&amp;nbsp; na nim, że nie może znieść takiej subordynacji i Twoja przygoda z Consafe dobiega końca." style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="374" y="2560" width="120" height="180" as="geometry"/>
         </mxCell>
-        <mxCell id="Ocsp_ow847kPlsqR-XV0-8" value="Budujesz armię hakerów, która ma na celu zniszczyć Putina. Wykradasz rosyjskie kody atomowe i decydujesz się zbombardować armię Małego Głoda. Zostajesz twarzą międzygalaktycznego energy drinka ‘URAnus’" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="1450" y="-475" width="120" height="245" as="geometry"/>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-85" value="AUTO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="Ocsp_ow847kPlsqR-XV0-8" target="otK-riBhTClsG9Ob1v-h-84">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="-1082"/>
+              <mxPoint x="160" y="-1051"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ocsp_ow847kPlsqR-XV0-8" value="Wykradasz rosyjskie kody atomowe i decydujesz się zbombardować armię Małego Głoda. Zostajesz twarzą międzygalaktycznego energy drinka ‘URAnus’" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="-1120" width="120" height="150" as="geometry"/>
         </mxCell>
         <mxCell id="sZYtht9tVo3GLUMoBra6-2" value="Tak" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" parent="1" source="Ocsp_ow847kPlsqR-XV0-11" target="sZYtht9tVo3GLUMoBra6-1" edge="1">
           <mxGeometry relative="1" as="geometry"/>
@@ -428,18 +442,18 @@
         <mxCell id="sZYtht9tVo3GLUMoBra6-39" value="AUTO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" parent="1" source="sZYtht9tVo3GLUMoBra6-37" target="6W_6ivR835rkXE9z7XLV-9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2950" y="1200"/>
-              <mxPoint x="2950" y="-810"/>
-              <mxPoint x="-160" y="-810"/>
+              <mxPoint x="3000" y="1200"/>
+              <mxPoint x="3000" y="-1170"/>
+              <mxPoint x="-160" y="-1170"/>
               <mxPoint x="-160" y="480"/>
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sZYtht9tVo3GLUMoBra6-37" value="Budzisz się. Patrzysz na zegarek. Jest 6.30. Nieźle zaspałeś. Zrywasz się na równe nogi. Pora jak najszybciej wyjść z domu!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="sZYtht9tVo3GLUMoBra6-37" value="Sypialnia&lt;br&gt;&lt;br&gt;Budzisz się. Uświadamiasz sobie, że wszystko co wydarzyło się przed chwilą to tylko dziwny sen. Patrzysz na zegarek. Jest 6.30. Nieźle zaspałeś. Zrywasz się na równe nogi. Pora jak najszybciej wyjść z domu!" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="2620" y="1110" width="120" height="180" as="geometry"/>
         </mxCell>
         <mxCell id="Ocsp_ow847kPlsqR-XV0-15" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;Zakładają firmę i wymyślają zapachy:&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;* Palony włos łonowy&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;* Sraczka po grochówce&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;* Kiełbasiany bek&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;* Niemyta dupa&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;* Miodowy wacik&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="2780" y="840" width="120" height="120" as="geometry"/>
+          <mxGeometry x="2800" y="840" width="120" height="120" as="geometry"/>
         </mxCell>
         <mxCell id="Ocsp_ow847kPlsqR-XV0-28" value="Tak" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" parent="1" source="Ocsp_ow847kPlsqR-XV0-19" target="Ocsp_ow847kPlsqR-XV0-27" edge="1">
           <mxGeometry relative="1" as="geometry"/>
@@ -544,7 +558,7 @@
         <mxCell id="Ocsp_ow847kPlsqR-XV0-47" value="Wchodzi i zaczynasz Michałowi spokojnie tłumaczyć, że nie może się tak zachowywać, że dobry szef tak nie robi. Nawet nie wiesz kiedy dyskusja obraca się w bardzo ostrą wymianę zdań. Michał mówi, że to ostatni dzień w pracy nie tylko dla Oli, ale także dla Ciebie." style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="174" y="2310" width="120" height="220" as="geometry"/>
         </mxCell>
-        <mxCell id="SmOhq9sCI9yzw1fIaUKF-110" value="Magdy" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" parent="1" source="Ocsp_ow847kPlsqR-XV0-52" target="SmOhq9sCI9yzw1fIaUKF-109" edge="1">
+        <mxCell id="SmOhq9sCI9yzw1fIaUKF-110" value="Dzwonię do Magdy" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" parent="1" source="Ocsp_ow847kPlsqR-XV0-52" target="SmOhq9sCI9yzw1fIaUKF-109" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="800" y="2685"/>
@@ -553,7 +567,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="SmOhq9sCI9yzw1fIaUKF-111" value="Oli" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" parent="1" source="Ocsp_ow847kPlsqR-XV0-52" target="SmOhq9sCI9yzw1fIaUKF-108" edge="1">
+        <mxCell id="SmOhq9sCI9yzw1fIaUKF-111" value="Dzwonię do Oli" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" parent="1" source="Ocsp_ow847kPlsqR-XV0-52" target="SmOhq9sCI9yzw1fIaUKF-108" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="744" y="2815"/>
@@ -1086,17 +1100,317 @@
         <mxCell id="sZYtht9tVo3GLUMoBra6-31" value="???&lt;br style=&quot;font-size: 10px;&quot;&gt;Masz dziwną wizję, w której bliżej nieokreślone bóstwo każe CI udać się do baru skunksa, gdzie czeka na Ciebie Twoje przeznaczanie." style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="2120" y="-80" width="120" height="230" as="geometry"/>
         </mxCell>
-        <mxCell id="sZYtht9tVo3GLUMoBra6-42" value="Dobrze. Nie wolno przyznawać się do bycia programistą przed obcymi ludźmi. Kto wie - może jeszcze liczyliby na Twoją pomoc. Wódz zaczyna opowiadać, że szaman z zaprzyjaźnionego plemienia może nauczyć ich mscriptu. Czy&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="475" y="-680" width="120" height="250" as="geometry"/>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-3" value="No raczej. Mscript fujka" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="sZYtht9tVo3GLUMoBra6-42" target="otK-riBhTClsG9Ob1v-h-59">
+          <mxGeometry x="-0.4039" relative="1" as="geometry">
+            <mxPoint x="530" y="-407" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="470" y="-212"/>
+              <mxPoint x="470" y="-270"/>
+              <mxPoint x="312" y="-270"/>
+              <mxPoint x="312" y="-260"/>
+              <mxPoint x="200" y="-260"/>
+              <mxPoint x="200" y="-182"/>
+            </Array>
+            <mxPoint as="offset"/>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="sZYtht9tVo3GLUMoBra6-43" value="Okazuje się, że buszmeni nie mają nawet komputerów. Naprędce z patyków, liści i lisich bobków konstruujecie prymitywne komputery, na których można skompilować C. Podłączacie je do krzaków i pokazujesz im Vima.&amp;nbsp;&lt;br style=&quot;font-size: 10px;&quot;&gt;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="970" y="-325" width="120" height="220" as="geometry"/>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-4" value="Niech się męczą!" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="sZYtht9tVo3GLUMoBra6-42" target="otK-riBhTClsG9Ob1v-h-2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="sZYtht9tVo3GLUMoBra6-42" value="Brokuł wodza&lt;br&gt;&lt;br&gt;Dobrze. Nie wolno przyznawać się do bycia programistą przed obcymi ludźmi. Kto wie - może jeszcze liczyliby na Twoją pomoc. Wódz zaczyna opowiadać, że szaman z zaprzyjaźnionego plemienia może nauczyć ich mscriptu. Powieka zaczyna Ci drgać na myśl o tej szatańskiej technologii. Czy próbujesz odwieść ich od tego pomysłu?&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="494" y="-270" width="120" height="230" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-73" value="Algorytmy i struktury danych" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="sZYtht9tVo3GLUMoBra6-43" target="otK-riBhTClsG9Ob1v-h-72">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-75" value="Matematyka dyskretna" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="sZYtht9tVo3GLUMoBra6-43" target="otK-riBhTClsG9Ob1v-h-74">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-77" value="Machine learning" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="sZYtht9tVo3GLUMoBra6-43" target="otK-riBhTClsG9Ob1v-h-76">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="sZYtht9tVo3GLUMoBra6-43" value="Brokuł szkolny&lt;br&gt;&lt;br&gt;Okazuje się, że buszmeni nie mają nawet komputerów. Naprędce z patyków, liści i lisich bobków konstruujecie prymitywne komputery, na których można skompilować C. Podłączacie je do krzaków i pokazujesz im Vima. Od czego zaczynasz naukę?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="524" y="-715" width="120" height="175" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-81" value="AUTO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="otK-riBhTClsG9Ob1v-h-74" target="otK-riBhTClsG9Ob1v-h-79">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="-1000"/>
+              <mxPoint x="550" y="-1000"/>
+              <mxPoint x="550" y="-946"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-74" value="Brokuł szkolny&lt;br&gt;&lt;br&gt;Buszmeni zajebiście ogarniają" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="760" y="-828" width="120" height="175" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-82" value="AUTO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="otK-riBhTClsG9Ob1v-h-72" target="otK-riBhTClsG9Ob1v-h-79">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="900" y="-527"/>
+              <mxPoint x="900" y="-1020"/>
+              <mxPoint x="490" y="-1020"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-72" value="Brokuł szkolny&lt;br&gt;&lt;br&gt;Buszmeni zajebiście ogarniają" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="760" y="-615" width="120" height="175" as="geometry"/>
         </mxCell>
         <mxCell id="s9mJThwdNVPW_bmVjUiE-1" value="&lt;span style=&quot;white-space: normal; font-size: 10px;&quot;&gt;Sypialnia&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;white-space: normal; font-size: 10px;&quot;&gt;Budzik dzwoni o 4:30. Czy wstajesz?&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="150" y="10" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="s9mJThwdNVPW_bmVjUiE-2" value="&lt;span style=&quot;white-space: normal; font-size: 10px;&quot;&gt;Duże łydki pomagają Ci w ucieczce. Dzik jest szybki, ale gruby. Ty na szczęście gruby nie jesteś. Kilka nieznanych ścieżek dalej orientujesz się, że nikt Cię już nie ściga. Rozglądasz się dookoła. Widzisz dwie ścieżki. Jedna jest ciemna, mroczna i porośnięta cierniem. Nad drugą zaś świeci słońce, dobiega z niej ćwierkanie ptaszków. Którą wybierasz?&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="1584" y="-100" width="120" height="275" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-60" value="Tak" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="otK-riBhTClsG9Ob1v-h-2" target="otK-riBhTClsG9Ob1v-h-59">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-62" value="Nie" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="otK-riBhTClsG9Ob1v-h-2" target="otK-riBhTClsG9Ob1v-h-61">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-2" value="Brokuł szkolny&lt;br&gt;&lt;br&gt;Z ciekawości przychodzisz na pierwsze zajęcia prowadzone przez szamana. Widzisz, że szaman za nic ma zasady SOLID. Czy interweniujesz?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="245" y="-245" width="120" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-63" value="Tak" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="otK-riBhTClsG9Ob1v-h-61" target="otK-riBhTClsG9Ob1v-h-59">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-65" value="Nie" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="otK-riBhTClsG9Ob1v-h-61" target="otK-riBhTClsG9Ob1v-h-64">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-61" value="Brokuł szkolny&lt;br&gt;&lt;br&gt;Chwilę później szaman naucza, że najlepsze nazwy zmiennych tymczasowych to tmp i tmp2. Czy Interweniujesz?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="245" y="-485" width="120" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-66" value="Tak" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="otK-riBhTClsG9Ob1v-h-64" target="otK-riBhTClsG9Ob1v-h-59">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-70" value="Nie" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="otK-riBhTClsG9Ob1v-h-64" target="otK-riBhTClsG9Ob1v-h-69">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-64" value="Brokuł szkolny&lt;br&gt;&lt;br&gt;Czy Interweniujesz?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="245" y="-725" width="120" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-71" value="AUTO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="otK-riBhTClsG9Ob1v-h-69" target="otK-riBhTClsG9Ob1v-h-59">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-69" value="Brokuł szkolny&lt;br&gt;&lt;br&gt;Czy Interweniujesz?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="245" y="-965" width="120" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-26" value="AUTO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="otK-riBhTClsG9Ob1v-h-6" target="otK-riBhTClsG9Ob1v-h-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1540" y="250"/>
+              <mxPoint x="1540" y="-130"/>
+              <mxPoint x="1610" y="-130"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-6" value="Osada buszmenów&lt;br&gt;&lt;br&gt;Niektórzy w kieszeniach znajdują coś przydatnego, Ty zaś znajdujesz kalafior. Wyjmujesz go i nie widząc lepszej alternatywy rzucasz nim w otaczających Cię buszmenów.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1297" y="180" width="120" height="140" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-12" value="Pewka" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="otK-riBhTClsG9Ob1v-h-8" target="otK-riBhTClsG9Ob1v-h-10">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-13" value="Obawiam się nieco i odmawiam" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;fontSize=10;" edge="1" parent="1" source="otK-riBhTClsG9Ob1v-h-8" target="otK-riBhTClsG9Ob1v-h-11">
+          <mxGeometry x="0.0159" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-8" value="Osada buszmenów&lt;br&gt;&lt;br&gt;Okazuje się, że pradawne buszmeńskie zwoje zapowiadały proroka, który pojawi się i będzie wykręcał suty. Wszyscy padają na kolana i oddają Ci cześć. Czy dostępujesz zaszczytu wstąpienia na ich tron?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1287" y="10" width="120" height="145" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-15" value="ANY" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="otK-riBhTClsG9Ob1v-h-10" target="otK-riBhTClsG9Ob1v-h-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1190" y="-545"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-10" value="Namiot szamana&lt;br&gt;&lt;br&gt;Szaman przedstawia Ci treść zwojów. Wynika z nich, że czeka Cię rychła koronacja. Aby jednak miała ona miejsce musisz podać tajne hasło, które zna jedynie wybraniec. Jakie hasło podajesz?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="-200" width="120" height="135" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-17" value="ANY" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="otK-riBhTClsG9Ob1v-h-14" target="otK-riBhTClsG9Ob1v-h-16">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-14" value="Namiot szamana&lt;br&gt;&lt;br&gt;Niestety to nie jest poprawne hasło. Szaman daje Ci jeszcze jedną szansę. Zastanów się dobrze. Jakie hasło podajesz tym razem?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="-612" width="120" height="135" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-20" value="Koszulka Kabanosa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="otK-riBhTClsG9Ob1v-h-16" target="otK-riBhTClsG9Ob1v-h-18">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-21" value="Stara bluza z suwakiem po czubek głowy" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="otK-riBhTClsG9Ob1v-h-16" target="otK-riBhTClsG9Ob1v-h-19">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-16" value="Namiot szamana&lt;br&gt;&lt;br&gt;Super! Dwuetapowa autentykacja zakończyła się powodzeniem. Buszmeni już oficjalnie widzą w Tobie wybrańca. Jeszcze przed ceremonią szaman przedstawia Ci propozycje szat, które możesz założyć. Co wybierasz?&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="990" y="-870" width="120" height="175" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-11" value="Osada buszmenów&lt;br&gt;&lt;br&gt;Wybraniec, który odmawia wstąpienia na tron jest siłą nieczystą. Oczywiście nie mogłeś tego wiedzieć. Podobnie jak tego, co czeka siłę nieczystą - postawienie przed obliczem pradawnych bogów." style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1344" y="-315" width="120" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-35" value="AUTO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="otK-riBhTClsG9Ob1v-h-32" target="otK-riBhTClsG9Ob1v-h-34">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-32" value="Góra Potępienia&lt;br&gt;&lt;br&gt;Buszmeni przywiązują Cię do pala na szczycie góry. W ramach tortur zaczynają Cię gilgotać po pępku. Gilgotaniu nie ma końca. Po kilkudziesięciu minutach zmęczony i pozbawiony sił mdlejesz." style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="-660" width="120" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-37" value="AUTO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="otK-riBhTClsG9Ob1v-h-34" target="otK-riBhTClsG9Ob1v-h-36">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-34" value="Góra Potępienia&lt;br&gt;&lt;br&gt;Budzą Cię grzmoty i zimny deszcz. Po otwarciu oczu okazuje się, że niebo spowite jest czarnymi chmurami. Co kilka sekund w pobliskie góry uderzają pioruny. Po buszmenach ani śladu. Zostałeś sam.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1485" y="-715" width="185" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-38" value="AUTO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="otK-riBhTClsG9Ob1v-h-36" target="sZYtht9tVo3GLUMoBra6-37">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-36" value="Bliżej nieokreślona lokalizacja&lt;br&gt;&lt;br&gt;Ostatnia rzecz, którą pamiętasz to uderzający w Ciebie piorun i przeszywający Cię ból..." style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="-715" width="185" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-23" value="AUTO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="otK-riBhTClsG9Ob1v-h-18" target="otK-riBhTClsG9Ob1v-h-22">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-18" value="Namiot&amp;nbsp; szamana&lt;br&gt;&lt;br&gt;Może Kabanos się rozpadł, ale w Twoim sercu pozostanie na zawsze żywy. No i stanowi całkiem zacną kreację na koronację." style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1228" y="-970" width="120" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-24" value="AUTO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.007;entryY=0.455;entryDx=0;entryDy=0;fontSize=10;entryPerimeter=0;" edge="1" parent="1" source="otK-riBhTClsG9Ob1v-h-19" target="otK-riBhTClsG9Ob1v-h-40">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-19" value="Namiot szamana&lt;br&gt;&lt;br&gt;Dużo suwaka to możliwość zasłonienia dużej części twarzy. Kto wie, co będzie Cię czekać podczas ceremonii? Może ta możliwość Ci się przyda...?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="-839" width="120" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-43" value="Czerwoną" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="otK-riBhTClsG9Ob1v-h-22" target="otK-riBhTClsG9Ob1v-h-42">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-46" value="Niebieską" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="otK-riBhTClsG9Ob1v-h-22" target="otK-riBhTClsG9Ob1v-h-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1810" y="-925"/>
+              <mxPoint x="1810" y="-850"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-22" value="Góra Przeznaczenia&lt;br&gt;&lt;br&gt;Na górze czeka na Ciebie pozłacany tron i czerwony dywan. Buszmeni Ci wiwatują i rzucają pod nogi brokuły i zioła. Zasiadasz na tronie. Po chwili u tronu pojawia się Zenek. To był dobry dzień na ubranie koszulki Kabanosa. Zenek ma ręku dwie pastylki. Czerwoną i niebieską. Którą wybierasz?&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="-1030" width="200" height="140" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-48" value="AUTO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="otK-riBhTClsG9Ob1v-h-42" target="sZYtht9tVo3GLUMoBra6-37">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-42" value="Bliżej nieokreślona lokalizacja&lt;br&gt;&lt;br&gt;Kabanos nagrywa zajebisty płyty" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1999.5" y="-1080" width="200" height="140" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-50" value="AUTO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="otK-riBhTClsG9Ob1v-h-40" target="otK-riBhTClsG9Ob1v-h-49">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1780" y="-796"/>
+              <mxPoint x="1780" y="-760"/>
+              <mxPoint x="2015" y="-760"/>
+              <mxPoint x="2015" y="-732"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-40" value="Góra Przeznaczenia&lt;br&gt;&lt;br&gt;Na górze piękna, ruda buszmenka. Zawstydzasz się. Zapinasz kaptur." style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="-850.5" width="200" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-28" value="Depczę kalafior" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="otK-riBhTClsG9Ob1v-h-25" target="otK-riBhTClsG9Ob1v-h-27">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-30" value="Zjadam kalafior" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.551;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=10;" edge="1" parent="1" source="otK-riBhTClsG9Ob1v-h-25" target="otK-riBhTClsG9Ob1v-h-29">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-25" value="Osada buszmenów&lt;br&gt;&lt;br&gt;Buszmeni milkną. Wszyscy z niedowierzaniem patrzą na leżący na ziemi kalafior. Patrząc na ich brokułowe domy zaczynasz rozumieć, że popełniłeś faux pax. Co robisz?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="-305" width="120" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-31" value="AUTO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="otK-riBhTClsG9Ob1v-h-27" target="otK-riBhTClsG9Ob1v-h-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1350" y="-530"/>
+              <mxPoint x="1350" y="-360"/>
+              <mxPoint x="1310" y="-360"/>
+              <mxPoint x="1310" y="-132"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-27" value="Osada buszmenów&lt;br&gt;&lt;br&gt;Okazuje się, że pradawne buszmeńskie zwoje zapowiadały proroka, który pojawi się i nienawidził kalafior - symbol złowrogich plemion. Wszyscy padają na kolana i oddają Ci cześć." style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="-520" width="120" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-39" value="AUTO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="otK-riBhTClsG9Ob1v-h-29" target="otK-riBhTClsG9Ob1v-h-32">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-29" value="Osada buszmenów&lt;br&gt;&lt;br&gt;Okazuje się, że jedzenie kalafiora jest symbolem poparcia znienawidzonego przez buszmenów plemienia. Tubylcy biorą Cię za siłę nieczystą i pojmują w niewolę." style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="-520" width="120" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-33" value="AUTO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;jumpStyle=arc;" edge="1" parent="1" source="otK-riBhTClsG9Ob1v-h-11" target="otK-riBhTClsG9Ob1v-h-32">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-47" value="AUTO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="otK-riBhTClsG9Ob1v-h-45" target="sZYtht9tVo3GLUMoBra6-37">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-45" value="Bliżej nieokreślona lokalizacja&lt;br&gt;&lt;br&gt;Kabanos nagrywa chujowe płyty" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="2020" y="-920.5" width="200" height="140" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="otK-riBhTClsG9Ob1v-h-49" target="otK-riBhTClsG9Ob1v-h-52">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-49" value="Góra Przeznaczenia&lt;br&gt;&lt;br&gt;Buszmenka rozpina Twój kaptur i podaje CI do zjedzenia swoje włosy łonowe. Opierasz się, ale je zjadasz, bo wiesz jaka nagroda Cię za to czeka." style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="2300" y="-795" width="220" height="126" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=10;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="otK-riBhTClsG9Ob1v-h-52" target="6W_6ivR835rkXE9z7XLV-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2860" y="-1140"/>
+              <mxPoint x="-110" y="-1140"/>
+              <mxPoint x="-110" y="465"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-52" value="&lt;span style=&quot;white-space: normal&quot;&gt;Sypialnia&lt;/span&gt;&lt;br style=&quot;white-space: normal&quot;&gt;&lt;br style=&quot;white-space: normal&quot;&gt;&lt;span style=&quot;white-space: normal&quot;&gt;Budzisz się z mokrymi majtkami przyklejonymi do prześcieradła. Nie pierwszy, nie ostatni raz. Patrzysz na zegarek. Jest 6.30. Nieźle zaspałeś. Zrywasz się na równe nogi. Pora jak najszybciej wyjść z domu!&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="2765" y="-795.5" width="190" height="122" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-57" value="AUTO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="otK-riBhTClsG9Ob1v-h-55" target="6W_6ivR835rkXE9z7XLV-51">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="1400"/>
+              <mxPoint x="450" y="1400"/>
+              <mxPoint x="450" y="1300"/>
+              <mxPoint x="590" y="1300"/>
+              <mxPoint x="590" y="1275"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-55" value="TESCO&lt;br&gt;&lt;br&gt;No i słusznie. Jest brzydka. Po co pomagać brzydkim dziewczynom? Wsiadasz w samochód i jedziesz do pracy." style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1230" width="120" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-67" value="AUTO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="otK-riBhTClsG9Ob1v-h-59" target="sZYtht9tVo3GLUMoBra6-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="-750"/>
+              <mxPoint x="584" y="-750"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-59" value="Brokuł szkolny&lt;br&gt;&lt;br&gt;Czym prędzej przepędzasz szamana. Zdajesz sobie sprawę z tego, że buszmeni będą programistycznie zgubieni, jeżeli nie weźmiesz spraw w swoje ręce." style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="10" y="-250" width="120" height="135" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="otK-riBhTClsG9Ob1v-h-76" target="otK-riBhTClsG9Ob1v-h-79">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-76" value="Brokuł szkolny&lt;br&gt;&lt;br&gt;Buszmeni zajebiście ogarniają" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="570" y="-990" width="120" height="175" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-83" value="AUTO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="otK-riBhTClsG9Ob1v-h-79" target="Ocsp_ow847kPlsqR-XV0-8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-79" value="Brokuł szkolny&lt;br&gt;&lt;br&gt;Budujesz armię hakerów, która ma na celu zniszczyć Putina.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-990" width="120" height="175" as="geometry"/>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="otK-riBhTClsG9Ob1v-h-84" target="6W_6ivR835rkXE9z7XLV-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-180" y="-1051"/>
+              <mxPoint x="-180" y="495"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="otK-riBhTClsG9Ob1v-h-84" value="&lt;span style=&quot;white-space: normal&quot;&gt;Sypialnia&lt;/span&gt;&lt;br style=&quot;white-space: normal&quot;&gt;&lt;br style=&quot;white-space: normal&quot;&gt;&lt;span style=&quot;white-space: normal&quot;&gt;Budzisz się z mokrymi majtkami przyklejonymi do prześcieradła. Nie pierwszy, nie ostatni raz. Patrzysz na zegarek. Jest 6.30. Nieźle zaspałeś. Zrywasz się na równe nogi. Pora jak najszybciej wyjść z domu!&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-76" y="-1112" width="190" height="122" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>

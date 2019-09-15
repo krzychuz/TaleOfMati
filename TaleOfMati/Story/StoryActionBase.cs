@@ -82,9 +82,7 @@ namespace TaleOfMati.Story
 
         private void HandleGameOver()
         {
-            Console.WriteLine("GAME OVER!");
-            Console.ReadLine();
-            Environment.Exit(0);
+            AsciiArt.PrintGameOverScreen();
         }
 
         private string GetNextPossibleAction()

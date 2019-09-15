@@ -38,7 +38,7 @@ namespace TaleOfMati.StoryActionEngine
 
         public void RunStory()
         {
-            StartScreen.PrintStartScreen();
+            AsciiArt.PrintStartScreen();
             while (true)
             {
                 CurrentAction.InvokeAction();
