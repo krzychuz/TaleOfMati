@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,11 +10,12 @@ namespace TaleOfMati.Story
 {
     public class ActionsRepository : IDisposable
     {
-        private IList<IStoryAction> _storyActions;
-        private const string StoriesPath = "C:\\Users\\krzyc\\Desktop\\TaleOfMati.xml";
+        private readonly IList<IStoryAction> _storyActions;
+        private readonly string StoriesPath;
 
         public ActionsRepository()
         {
+            StoriesPath = Path.Combine(Directory.GetCurrentDirectory(), "TaleOfMati.xml");
             using (DiagramDeserializer diagramDeserializer = new DiagramDeserializer())
             {
                 _storyActions = diagramDeserializer.GetStoriesFromXml(StoriesPath);

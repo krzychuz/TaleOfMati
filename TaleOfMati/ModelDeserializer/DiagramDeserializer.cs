@@ -1,5 +1,4 @@
-﻿using HtmlAgilityPack;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -46,8 +45,7 @@ namespace TaleOfMati.ModelDeserializer
                     var actionNode = actionList.Where(action => action.Id == element.Source).SingleOrDefault();
                     if(actionNode == null)
                     {
-                        var newActionNode = new StoryActionBase();
-                        newActionNode.Id = element.Source;
+                        var newActionNode = new StoryActionBase { Id = element.Source };
                         newActionNode.PossibleActions[element.Value ?? "AUTO"] = element.Target;
                         actionList.Add(newActionNode);
                     }
@@ -69,43 +67,38 @@ namespace TaleOfMati.ModelDeserializer
 
             if (hasHtmlTags)
             {
-                HtmlDocument document = new HtmlDocument();
-                document.LoadHtml(nodeValue);
-                HtmlNodeCollection spanNodeCollection = document.DocumentNode.SelectNodes("//span");
-                List<HtmlNode> textNodeCollection = document.DocumentNode.ChildNodes.Where(node => node.NodeType == HtmlNodeType.Text).ToList();
+                string noHtmlNode;
 
-                if (spanNodeCollection?.Count == 2)
+                noHtmlNode = Regex.Replace(nodeValue, "<br.*?>", Environment.NewLine);
+                noHtmlNode = Regex.Replace(noHtmlNode, "<.*?>", string.Empty);
+
+                List<string> parsedLines = new List<string>();
+
+                using (StringReader reader = new StringReader(noHtmlNode))
                 {
-                    actionNode.PlaceDescription = CleanHtmlTags(spanNodeCollection.ElementAt(0).InnerText);
-                    actionNode.ActionDescription = CleanHtmlTags(spanNodeCollection.ElementAt(1).InnerText);
+                    string line;
+                    while ((line = reader.ReadLine()) != null)
+                    {
+                        if(!string.IsNullOrEmpty(line))
+                            parsedLines.Add(line);
+                    }
                 }
-                else if (spanNodeCollection?.Count == 1)
+
+                if (parsedLines?.Count >= 2)
                 {
-                    actionNode.ActionDescription = CleanHtmlTags(spanNodeCollection.ElementAt(0).InnerText);
-                    actionNode.PlaceDescription = "Lokalizacja nieznana";
-                }
-                else if (textNodeCollection?.Count > 0)
-                {
-                    actionNode.PlaceDescription = CleanHtmlTags(textNodeCollection.ElementAt(0).InnerText);
-                    actionNode.ActionDescription = CleanHtmlTags(textNodeCollection.ElementAt(1).InnerText);
+                    actionNode.PlaceDescription = parsedLines.ElementAt(0);
+                    for (int i = 1; i < parsedLines.Count; i++)
+                        actionNode.ActionDescription += parsedLines.ElementAt(i);
                 }
                 else
-                {
-                    actionNode.ActionDescription = CleanHtmlTags(nodeValue);
-                    actionNode.PlaceDescription = "Lokalizacja nieznana";
-                }
+                    throw new Exception($"Failed to parse `{nodeValue}`!");
 
             }
             else
             {
-                actionNode.ActionDescription = CleanHtmlTags(nodeValue);
+                actionNode.ActionDescription = nodeValue;
                 actionNode.PlaceDescription = "Lokalizacja nieznana";
             }
-        }
-
-        private string CleanHtmlTags(string value)
-        {
-            return Regex.Replace(value, @"&nbsp;", "").Trim();
         }
 
         public void Dispose()

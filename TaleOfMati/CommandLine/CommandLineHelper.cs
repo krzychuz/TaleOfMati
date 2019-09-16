@@ -8,7 +8,9 @@ namespace TaleOfMati.CommandLine
 {
     public static class CommandLineHelper
     {
-        public static void PrintWholeWords(string text)
+        private const string InputPrefix = ">> ";
+
+        public static void PrintWholeWords(string text, bool breakLineAfterPrint = true)
         {
             var words = text.Split(' ');
             var lines = words.Skip(1).Aggregate(words.Take(1).ToList(), (l, w) =>
@@ -21,44 +23,59 @@ namespace TaleOfMati.CommandLine
             });
 
             foreach (var line in lines)
-                LazyPrint(line);
+                LazyPrint(line, breakLineAfterPrint);
         }
 
-        public static void LazyPrint(string data)
+        public static void LazyPrint(string data, bool breakLineAfterPrint)
         {
             for (int i = 0; i < data.Length; i++)
             {
                 Console.Write(data[i]);
                 System.Threading.Thread.Sleep(50);
             }
-            Console.WriteLine();
+
+            if(breakLineAfterPrint)
+                Console.WriteLine();
         }
 
-        public static string GetInput(Func<string> getNextPossibleAction, IDictionary<string, string> possibleActions,
+        public static string GetInput(Func<string> getNextPossibleInput, IDictionary<string, string> possibleActions,
             ref int shownActionId)
         {
-            Console.Write(">> ");
+            Console.Write(InputPrefix);
             while (true)
             {
                 var readKey = Console.ReadKey().Key;
 
                 if (readKey == ConsoleKey.Tab)
                 {
-                    ClearCurrentConsoleLine();
-                    Console.Write(">> ");
-                    Console.ForegroundColor = ConsoleColor.Cyan;
-                    Console.Write(getNextPossibleAction.Invoke());
-                    Console.ForegroundColor = ConsoleColor.White;
+                    ToggleInput(getNextPossibleInput);
                 }
                 else if (readKey == ConsoleKey.Enter)
                 {
-                    return possibleActions.ElementAt(shownActionId - 1).Key;
+                    try
+                    {
+                        return possibleActions.ElementAt(shownActionId - 1).Key;
+                    }
+                    catch (ArgumentOutOfRangeException)
+                    {
+                        ToggleInput(getNextPossibleInput);
+                    }
                 }
             }
         }
 
+        private static void ToggleInput(Func<string> getNextPossibleInput)
+        {
+            ClearCurrentConsoleLine();
+            Console.Write(InputPrefix);
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.Write(getNextPossibleInput.Invoke());
+            Console.ForegroundColor = ConsoleColor.White;
+        }
+
         public static void GetAnyInput()
         {
+            Console.Write(InputPrefix);
             Console.ReadLine();
         }
 
@@ -72,9 +89,15 @@ namespace TaleOfMati.CommandLine
 
         public static void PrintLocation(string location)
         {
+            Console.WriteLine(Environment.NewLine);
             Console.ForegroundColor = ConsoleColor.Green;
             PrintWholeWords("[" + location + "]");
             Console.ForegroundColor = ConsoleColor.White;
+        }
+
+        public static void PrintActionDescription(string actionDescription, IDictionary<string, string> possibleActions)
+        {
+            PrintWholeWords(actionDescription, possibleActions.Keys.Count > 1);
         }
     }
 }

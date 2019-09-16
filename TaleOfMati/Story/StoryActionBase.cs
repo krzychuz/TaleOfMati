@@ -25,7 +25,7 @@ namespace TaleOfMati.Story
         public void InvokeAction()
         {
             CommandLineHelper.PrintLocation(PlaceDescription);
-            CommandLineHelper.PrintWholeWords(ActionDescription);
+            CommandLineHelper.PrintActionDescription(ActionDescription, PossibleActions);
 
             while(true)
             {
@@ -44,8 +44,6 @@ namespace TaleOfMati.Story
                     break;
                 }
             }
-
-            Console.WriteLine(Environment.NewLine);
         }
 
         private void HandleActionWithInput()
