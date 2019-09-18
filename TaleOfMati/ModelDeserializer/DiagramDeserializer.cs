@@ -71,6 +71,7 @@ namespace TaleOfMati.ModelDeserializer
 
                 noHtmlNode = Regex.Replace(nodeValue, "<br.*?>", Environment.NewLine);
                 noHtmlNode = Regex.Replace(noHtmlNode, "<.*?>", string.Empty);
+                noHtmlNode = Regex.Replace(noHtmlNode, "nbsp;", " ");
 
                 List<string> parsedLines = new List<string>();
 
